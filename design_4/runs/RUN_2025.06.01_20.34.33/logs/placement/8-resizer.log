@@ -1,0 +1,2031 @@
+OpenROAD b16bda7e82721d10566ff7e2b68f1ff0be9f9e38 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+define_corners Slowest Typical Fastest
+read_liberty -corner Slowest /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib
+read_liberty -corner Typical /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -corner Fastest /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 619, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 625, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 633, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 639, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 647, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 654, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 661, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 668, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 675, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 682, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 689, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 698, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 705, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 712, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 719, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 726, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 733, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 740, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 789, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 795, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 801, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 807, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 815, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 821, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 827, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 833, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 841, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 848, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 855, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 862, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 869, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 876, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 883, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 892, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 899, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 906, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 913, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 920, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 927, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 934, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1032, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1038, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1046, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1052, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1060, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1067, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1074, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1081, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1088, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1095, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1102, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1111, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1118, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1125, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1132, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1139, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1146, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1153, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1202, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1208, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1214, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1220, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1228, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1234, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1240, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1246, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1254, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1261, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1268, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1275, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1282, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1289, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1296, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1305, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1312, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1319, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1326, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1333, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1340, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1347, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1445, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1451, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1459, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1465, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1473, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1480, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1487, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1494, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1501, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1508, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1515, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1524, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1531, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1538, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1545, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1552, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1559, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1566, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1615, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1621, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1627, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1633, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1641, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1647, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1653, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1659, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1667, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1674, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1681, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1688, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1695, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1702, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1709, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1718, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1725, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1732, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1739, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1746, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1753, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1760, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1858, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1864, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1872, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1878, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1886, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1893, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1900, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1907, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1914, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1921, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1928, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1937, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1944, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1951, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1958, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1965, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1972, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 1979, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2028, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2034, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2040, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2046, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2054, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2060, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2066, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2072, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2080, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2087, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2094, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2101, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2108, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2115, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2122, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2131, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2138, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2145, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2152, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2159, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2166, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2173, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2271, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2277, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2285, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2291, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2299, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2306, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2313, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2320, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2327, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2334, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2341, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2350, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2357, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2364, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2371, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2378, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2385, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2392, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2441, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2447, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2453, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2459, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2467, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2473, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2479, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2485, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2493, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2500, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2507, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2514, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2521, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2528, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2535, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2544, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2551, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2558, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2565, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2572, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2579, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 2586, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3080, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3086, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3094, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3100, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3108, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3115, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3122, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3129, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3136, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3143, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3150, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3159, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3166, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3173, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3180, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3187, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3194, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3201, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3250, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3256, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3262, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3268, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3276, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3282, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3288, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3294, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3302, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3309, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3316, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3323, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3330, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3337, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3344, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3353, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3360, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3367, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3374, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3381, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3388, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3395, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3493, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3499, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3507, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3513, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3521, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3528, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3535, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3542, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3549, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3556, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3563, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3572, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3579, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3586, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3593, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3600, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3607, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3614, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3663, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3669, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3675, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3681, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3689, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3695, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3701, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3707, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3715, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3722, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3729, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3736, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3743, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3750, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3757, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3766, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3773, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3780, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3787, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3794, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3801, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3808, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3906, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3912, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3920, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3926, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3934, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3941, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3948, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3955, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3962, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3969, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3976, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3985, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3992, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 3999, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4006, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4013, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4020, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4027, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4076, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4082, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4088, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4094, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4102, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4108, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4114, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4120, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4128, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4135, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4142, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4149, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4156, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4163, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4170, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4179, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4186, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4193, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4200, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4207, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4214, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4221, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4319, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4325, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4333, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4339, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4347, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4354, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4361, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4368, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4375, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4382, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4389, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4398, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4405, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4412, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4419, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4426, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4433, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4440, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4489, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4495, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4501, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4507, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4515, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4521, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4527, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4533, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4541, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4548, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4555, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4562, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4569, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4576, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4583, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4592, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4599, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4606, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4613, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4620, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4627, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4634, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4732, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4738, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4746, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4752, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4760, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4767, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4774, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4781, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4788, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4795, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4802, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4811, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4818, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4825, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4832, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4839, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4846, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4853, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4902, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4908, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4914, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4920, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4928, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4934, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4940, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4946, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4954, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4961, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4968, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4975, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4982, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4989, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 4996, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5005, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5012, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5019, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5026, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5033, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5040, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5047, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5541, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5547, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5555, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5561, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5569, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5576, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5583, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5590, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5597, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5604, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5611, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5620, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5627, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5634, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5641, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5648, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5655, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5662, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5711, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5717, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5723, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5729, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5737, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5743, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5749, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5755, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5763, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5770, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5777, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5784, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5791, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5798, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5805, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5814, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5821, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5828, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5835, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5842, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5849, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5856, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5954, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5960, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5968, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5974, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5982, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5989, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 5996, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6003, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6010, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6017, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6024, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6033, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6040, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6047, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6054, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6061, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6068, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6075, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6124, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6130, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6136, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6142, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6150, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6156, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6162, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6168, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6176, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6183, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6190, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6197, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6204, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6211, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6218, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6227, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6234, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6241, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6248, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6255, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6262, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6269, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6367, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6373, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6381, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6387, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6395, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6402, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6409, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6416, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6423, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6430, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6437, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6446, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6453, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6460, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6467, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6474, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6481, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6488, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6537, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6543, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6549, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6555, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6563, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6569, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6575, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6581, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6589, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6596, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6603, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6610, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6617, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6624, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6631, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6640, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6647, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6654, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6661, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6668, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6675, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6682, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6780, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6786, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6794, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6800, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6808, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6815, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6822, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6829, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6836, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6843, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6850, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6859, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6866, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6873, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6880, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6887, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6894, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6901, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6950, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6956, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6962, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6968, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6976, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6982, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6988, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 6994, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7002, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7009, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7016, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7023, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7030, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7037, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7044, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7053, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7060, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7067, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7074, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7081, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7088, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7095, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7193, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7199, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7207, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7213, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7221, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7228, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7235, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7242, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7249, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7256, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7263, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7272, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7279, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7286, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7293, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7300, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7307, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7314, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7363, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7369, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7375, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7381, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7389, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7395, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7401, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7407, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7415, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7422, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7429, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7436, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7443, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7450, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7457, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7466, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7473, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7480, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7487, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7494, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7501, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 7508, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8002, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8008, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8014, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8020, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8028, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8034, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8040, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8046, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8054, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8061, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8068, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8075, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8082, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8089, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8096, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8105, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8112, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8119, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8126, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8133, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8140, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8147, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8245, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8251, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8257, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8263, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8271, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8277, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8283, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8289, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8297, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8304, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8311, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8318, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8325, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8332, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8339, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8348, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8355, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8362, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8369, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8376, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8383, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8390, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8488, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8494, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8500, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8506, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8514, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8520, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8526, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8532, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8540, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8547, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8554, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8561, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8568, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8575, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8582, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8591, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8598, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8605, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8612, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8619, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8626, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8633, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8731, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8737, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8743, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8749, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8757, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8763, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8769, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8775, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8783, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8790, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8797, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8804, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8811, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8818, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8825, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8834, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8841, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8848, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8855, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8862, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8869, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8876, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8974, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8980, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8986, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 8992, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9000, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9006, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9012, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9018, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9026, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9033, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9040, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9047, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9054, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9061, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9068, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9077, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9084, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9091, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9098, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9105, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9112, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9119, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9613, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9619, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9625, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9631, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9639, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9645, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9651, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9657, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9665, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9672, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9679, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9686, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9693, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9700, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9707, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9716, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9723, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9730, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9737, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9744, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9751, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9758, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9856, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9862, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9868, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9874, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9882, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9888, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9894, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9900, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9908, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9915, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9922, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9929, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9936, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9943, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9950, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9959, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9966, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9973, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9980, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9987, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 9994, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10001, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10099, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10105, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10111, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10117, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10125, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10131, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10137, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10143, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10151, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10158, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10165, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10172, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10179, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10186, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10193, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10202, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10209, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10216, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10223, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10230, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10237, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10244, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10342, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10348, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10354, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10360, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10368, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10374, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10380, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10386, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10394, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10401, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10408, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10415, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10422, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10429, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10436, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10445, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10452, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10459, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10466, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10473, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10480, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10487, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10585, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10591, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10597, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10603, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10611, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10617, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10623, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10629, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10637, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10644, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10651, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10658, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10665, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10672, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10679, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10688, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10695, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10702, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10709, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10716, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10723, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 10730, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11224, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11230, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11236, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11242, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11250, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11256, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11262, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11268, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11276, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11283, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11290, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11297, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11304, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11311, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11318, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11327, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11334, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11341, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11348, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11355, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11362, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11369, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11467, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11473, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11479, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11485, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11493, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11499, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11505, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11511, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11519, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11526, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11533, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11540, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11547, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11554, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11561, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11570, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11577, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11584, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11591, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11598, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11605, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11612, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11710, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11716, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11722, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11728, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11736, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11742, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11748, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11754, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11762, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11769, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11776, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11783, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11790, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11797, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11804, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11813, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11820, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11827, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11834, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11841, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11848, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11855, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11953, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11959, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11965, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11971, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11979, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11985, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11991, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 11997, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12005, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12012, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12019, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12026, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12033, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12040, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12047, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12056, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12063, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12070, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12077, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12084, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12091, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12098, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12196, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12202, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12208, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12214, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12222, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12228, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12234, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12240, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12248, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12255, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12262, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12269, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12276, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12283, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12290, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12299, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12306, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12313, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12320, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12327, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12334, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12341, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12835, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12841, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12847, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12853, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12861, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12867, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12873, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12879, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12887, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12894, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12901, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12908, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12915, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12922, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12929, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12938, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12945, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12952, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12959, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12966, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12973, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 12980, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13078, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13084, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13090, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13096, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13104, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13110, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13116, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13122, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13130, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13137, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13144, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13151, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13158, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13165, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13172, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13181, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13188, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13195, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13202, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13209, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13216, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13223, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13321, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13327, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13333, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13339, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13347, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13353, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13359, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13365, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13373, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13380, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13387, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13394, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13401, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13408, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13415, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13424, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13431, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13438, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13445, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13452, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13459, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13466, table template ccsn_pnlh not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13564, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13570, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13576, table template ccsn_ovrf not found.
+[WARNING STA-1256] /Users/nigiri/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 13582, table template ccsn_ovrf not found.
+[WARNING STA-1256] message limit reached, this message will no longer print
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+[INFO]: Reading ODB at '/openlane/designs/lab4/runs/RUN_2025.06.01_20.34.33/tmp/placement/7-global.odb'…
+Reading design constraints file at '/openlane/designs/lab4/src/lab4.sdc'…
+[WARNING STA-0366] port 'clk' not found.
+[INFO]: Setting RC values...
+[INFO RSZ-0027] Inserted 45 input buffers.
+[INFO RSZ-0028] Inserted 96 output buffers.
+[INFO RSZ-0058] Using max wire length 4508um.
+[INFO RSZ-0034] Found 1 slew violations.
+[INFO RSZ-0036] Found 1 capacitance violations.
+[INFO RSZ-0038] Inserted 6 buffers in 1 nets.
+[INFO RSZ-0039] Resized 3262 instances.
+[INFO DPL-0034] Detailed placement failed on the following 2579 instances:
+[INFO DPL-0035]  _8614_
+[INFO DPL-0035]  _8614_
+[INFO DPL-0035]  _9124_
+[INFO DPL-0035]  _9124_
+[INFO DPL-0035]  _8348_
+[INFO DPL-0035]  _8348_
+[INFO DPL-0035]  _8670_
+[INFO DPL-0035]  _9121_
+[INFO DPL-0035]  _9092_
+[INFO DPL-0035]  _8745_
+[INFO DPL-0035]  _8745_
+[INFO DPL-0035]  _9331_
+[INFO DPL-0035]  _9331_
+[INFO DPL-0035]  _8291_
+[INFO DPL-0035]  _9093_
+[INFO DPL-0035]  _9093_
+[INFO DPL-0035]  _9093_
+[INFO DPL-0035]  _8511_
+[INFO DPL-0035]  _9219_
+[INFO DPL-0035]  _8289_
+[INFO DPL-0035]  _8289_
+[INFO DPL-0035]  _8289_
+[INFO DPL-0035]  _9327_
+[INFO DPL-0035]  _9238_
+[INFO DPL-0035]  _9238_
+[INFO DPL-0035]  _9238_
+[INFO DPL-0035]  _8743_
+[INFO DPL-0035]  _9360_
+[INFO DPL-0035]  _9360_
+[INFO DPL-0035]  _9267_
+[INFO DPL-0035]  _9081_
+[INFO DPL-0035]  _9081_
+[INFO DPL-0035]  _9183_
+[INFO DPL-0035]  _8781_
+[INFO DPL-0035]  _8411_
+[INFO DPL-0035]  _8752_
+[INFO DPL-0035]  _8517_
+[INFO DPL-0035]  _9165_
+[INFO DPL-0035]  _8557_
+[INFO DPL-0035]  _8774_
+[INFO DPL-0035]  _8774_
+[INFO DPL-0035]  _8598_
+[INFO DPL-0035]  _9297_
+[INFO DPL-0035]  _9297_
+[INFO DPL-0035]  _9145_
+[INFO DPL-0035]  _9145_
+[INFO DPL-0035]  _9145_
+[INFO DPL-0035]  _8303_
+[INFO DPL-0035]  _9221_
+[INFO DPL-0035]  _9221_
+[INFO DPL-0035]  _8966_
+[INFO DPL-0035]  _8421_
+[INFO DPL-0035]  _8544_
+[INFO DPL-0035]  _9318_
+[INFO DPL-0035]  _9318_
+[INFO DPL-0035]  _8860_
+[INFO DPL-0035]  _8860_
+[INFO DPL-0035]  _8337_
+[INFO DPL-0035]  _8337_
+[INFO DPL-0035]  _8543_
+[INFO DPL-0035]  _8617_
+[INFO DPL-0035]  _8739_
+[INFO DPL-0035]  _8649_
+[INFO DPL-0035]  _8376_
+[INFO DPL-0035]  _9309_
+[INFO DPL-0035]  _9013_
+[INFO DPL-0035]  _8328_
+[INFO DPL-0035]  _8335_
+[INFO DPL-0035]  _8566_
+[INFO DPL-0035]  _8434_
+[INFO DPL-0035]  _8434_
+[INFO DPL-0035]  _8704_
+[INFO DPL-0035]  _8704_
+[INFO DPL-0035]  _9322_
+[INFO DPL-0035]  _8302_
+[INFO DPL-0035]  _8980_
+[INFO DPL-0035]  _9116_
+[INFO DPL-0035]  _8693_
+[INFO DPL-0035]  _9170_
+[INFO DPL-0035]  _9170_
+[INFO DPL-0035]  _9147_
+[INFO DPL-0035]  _8996_
+[INFO DPL-0035]  _8996_
+[INFO DPL-0035]  _8786_
+[INFO DPL-0035]  _8585_
+[INFO DPL-0035]  _8957_
+[INFO DPL-0035]  _8957_
+[INFO DPL-0035]  _9168_
+[INFO DPL-0035]  _9168_
+[INFO DPL-0035]  _9112_
+[INFO DPL-0035]  _8732_
+[INFO DPL-0035]  _8591_
+[INFO DPL-0035]  _8591_
+[INFO DPL-0035]  _8591_
+[INFO DPL-0035]  _8967_
+[INFO DPL-0035]  _8967_
+[INFO DPL-0035]  _8967_
+[INFO DPL-0035]  _8839_
+[INFO DPL-0035]  _8839_
+[INFO DPL-0035]  _8824_
+[INFO DPL-0035]  _8959_
+[INFO DPL-0035]  _8822_
+[INFO DPL-0035]  _8822_
+[INFO DPL-0035]  _9199_
+[INFO DPL-0035]  _9144_
+[INFO DPL-0035]  _9049_
+[INFO DPL-0035]  _9354_
+[INFO DPL-0035]  _8885_
+[INFO DPL-0035]  _8885_
+[INFO DPL-0035]  _8885_
+[INFO DPL-0035]  _8998_
+[INFO DPL-0035]  _8998_
+[INFO DPL-0035]  _8506_
+[INFO DPL-0035]  _8506_
+[INFO DPL-0035]  _8758_
+[INFO DPL-0035]  _8758_
+[INFO DPL-0035]  _8758_
+[INFO DPL-0035]  _9337_
+[INFO DPL-0035]  _9337_
+[INFO DPL-0035]  _8861_
+[INFO DPL-0035]  _9288_
+[INFO DPL-0035]  _8777_
+[INFO DPL-0035]  _9140_
+[INFO DPL-0035]  _9338_
+[INFO DPL-0035]  _8327_
+[INFO DPL-0035]  _9286_
+[INFO DPL-0035]  _9286_
+[INFO DPL-0035]  _8606_
+[INFO DPL-0035]  _8886_
+[INFO DPL-0035]  _8685_
+[INFO DPL-0035]  _8997_
+[INFO DPL-0035]  _8696_
+[INFO DPL-0035]  _8878_
+[INFO DPL-0035]  _5588_
+[INFO DPL-0035]  _5588_
+[INFO DPL-0035]  _8463_
+[INFO DPL-0035]  _8463_
+[INFO DPL-0035]  _8581_
+[INFO DPL-0035]  _9264_
+[INFO DPL-0035]  _9162_
+[INFO DPL-0035]  _9162_
+[INFO DPL-0035]  _9006_
+[INFO DPL-0035]  _8318_
+[INFO DPL-0035]  _8318_
+[INFO DPL-0035]  _8893_
+[INFO DPL-0035]  _8893_
+[INFO DPL-0035]  _8808_
+[INFO DPL-0035]  _8808_
+[INFO DPL-0035]  _8639_
+[INFO DPL-0035]  _8690_
+[INFO DPL-0035]  _8690_
+[INFO DPL-0035]  _9200_
+[INFO DPL-0035]  _9026_
+[INFO DPL-0035]  _9155_
+[INFO DPL-0035]  _9163_
+[INFO DPL-0035]  _8514_
+[INFO DPL-0035]  _8826_
+[INFO DPL-0035]  _8826_
+[INFO DPL-0035]  _9096_
+[INFO DPL-0035]  _9271_
+[INFO DPL-0035]  _9281_
+[INFO DPL-0035]  _8393_
+[INFO DPL-0035]  _9217_
+[INFO DPL-0035]  _8556_
+[INFO DPL-0035]  _8556_
+[INFO DPL-0035]  _8490_
+[INFO DPL-0035]  _9004_
+[INFO DPL-0035]  _9340_
+[INFO DPL-0035]  _8336_
+[INFO DPL-0035]  _9079_
+[INFO DPL-0035]  _8805_
+[INFO DPL-0035]  _8983_
+[INFO DPL-0035]  _9024_
+[INFO DPL-0035]  _8334_
+[INFO DPL-0035]  _8587_
+[INFO DPL-0035]  _8464_
+[INFO DPL-0035]  _9129_
+[INFO DPL-0035]  _9129_
+[INFO DPL-0035]  _9129_
+[INFO DPL-0035]  _9126_
+[INFO DPL-0035]  _9126_
+[INFO DPL-0035]  _8629_
+[INFO DPL-0035]  _9293_
+[INFO DPL-0035]  _9284_
+[INFO DPL-0035]  _9284_
+[INFO DPL-0035]  _9284_
+[INFO DPL-0035]  _9010_
+[INFO DPL-0035]  _9010_
+[INFO DPL-0035]  _8496_
+[INFO DPL-0035]  _8536_
+[INFO DPL-0035]  _8536_
+[INFO DPL-0035]  _8838_
+[INFO DPL-0035]  _8560_
+[INFO DPL-0035]  _9159_
+[INFO DPL-0035]  _8799_
+[INFO DPL-0035]  _8799_
+[INFO DPL-0035]  _8534_
+[INFO DPL-0035]  _9005_
+[INFO DPL-0035]  _8943_
+[INFO DPL-0035]  _9037_
+[INFO DPL-0035]  _8880_
+[INFO DPL-0035]  _8897_
+[INFO DPL-0035]  _8652_
+[INFO DPL-0035]  _8652_
+[INFO DPL-0035]  _8349_
+[INFO DPL-0035]  _9042_
+[INFO DPL-0035]  _9148_
+[INFO DPL-0035]  _9280_
+[INFO DPL-0035]  _9007_
+[INFO DPL-0035]  _9007_
+[INFO DPL-0035]  _8729_
+[INFO DPL-0035]  _8729_
+[INFO DPL-0035]  _9177_
+[INFO DPL-0035]  _9364_
+[INFO DPL-0035]  _8964_
+[INFO DPL-0035]  _8964_
+[INFO DPL-0035]  _8425_
+[INFO DPL-0035]  _8901_
+[INFO DPL-0035]  _9235_
+[INFO DPL-0035]  _9235_
+[INFO DPL-0035]  _9029_
+[INFO DPL-0035]  _9029_
+[INFO DPL-0035]  _8884_
+[INFO DPL-0035]  _8650_
+[INFO DPL-0035]  _8650_
+[INFO DPL-0035]  _9025_
+[INFO DPL-0035]  _8519_
+[INFO DPL-0035]  _8385_
+[INFO DPL-0035]  _8965_
+[INFO DPL-0035]  _9022_
+[INFO DPL-0035]  _9022_
+[INFO DPL-0035]  _9123_
+[INFO DPL-0035]  _9123_
+[INFO DPL-0035]  _9343_
+[INFO DPL-0035]  _8712_
+[INFO DPL-0035]  _8423_
+[INFO DPL-0035]  _8398_
+[INFO DPL-0035]  _9017_
+[INFO DPL-0035]  _8951_
+[INFO DPL-0035]  _8730_
+[INFO DPL-0035]  _8730_
+[INFO DPL-0035]  _9198_
+[INFO DPL-0035]  _9198_
+[INFO DPL-0035]  _9201_
+[INFO DPL-0035]  _9201_
+[INFO DPL-0035]  _9201_
+[INFO DPL-0035]  _8564_
+[INFO DPL-0035]  _8564_
+[INFO DPL-0035]  _8879_
+[INFO DPL-0035]  _8879_
+[INFO DPL-0035]  _8986_
+[INFO DPL-0035]  _8713_
+[INFO DPL-0035]  _8713_
+[INFO DPL-0035]  _8713_
+[INFO DPL-0035]  _8713_
+[INFO DPL-0035]  _8713_
+[INFO DPL-0035]  _9236_
+[INFO DPL-0035]  _9308_
+[INFO DPL-0035]  _9308_
+[INFO DPL-0035]  _8873_
+[INFO DPL-0035]  _8873_
+[INFO DPL-0035]  _9260_
+[INFO DPL-0035]  _8287_
+[INFO DPL-0035]  _8287_
+[INFO DPL-0035]  _8419_
+[INFO DPL-0035]  _9312_
+[INFO DPL-0035]  _9312_
+[INFO DPL-0035]  _8630_
+[INFO DPL-0035]  _8504_
+[INFO DPL-0035]  _8504_
+[INFO DPL-0035]  _8523_
+[INFO DPL-0035]  _8523_
+[INFO DPL-0035]  _8567_
+[INFO DPL-0035]  _8567_
+[INFO DPL-0035]  _9222_
+[INFO DPL-0035]  _8905_
+[INFO DPL-0035]  _8905_
+[INFO DPL-0035]  _8905_
+[INFO DPL-0035]  _8765_
+[INFO DPL-0035]  _8402_
+[INFO DPL-0035]  _8383_
+[INFO DPL-0035]  _9211_
+[INFO DPL-0035]  _9211_
+[INFO DPL-0035]  _9211_
+[INFO DPL-0035]  _9211_
+[INFO DPL-0035]  _9211_
+[INFO DPL-0035]  _8849_
+[INFO DPL-0035]  _9365_
+[INFO DPL-0035]  _8350_
+[INFO DPL-0035]  _8350_
+[INFO DPL-0035]  _9194_
+[INFO DPL-0035]  _9194_
+[INFO DPL-0035]  _9194_
+[INFO DPL-0035]  _8856_
+[INFO DPL-0035]  _8856_
+[INFO DPL-0035]  _8856_
+[INFO DPL-0035]  _8473_
+[INFO DPL-0035]  _8473_
+[INFO DPL-0035]  _8406_
+[INFO DPL-0035]  _8605_
+[INFO DPL-0035]  _9250_
+[INFO DPL-0035]  _9299_
+[INFO DPL-0035]  _9299_
+[INFO DPL-0035]  _9299_
+[INFO DPL-0035]  _8466_
+[INFO DPL-0035]  _8474_
+[INFO DPL-0035]  _8747_
+[INFO DPL-0035]  _8747_
+[INFO DPL-0035]  _6335_
+[INFO DPL-0035]  _9135_
+[INFO DPL-0035]  _9045_
+[INFO DPL-0035]  _9045_
+[INFO DPL-0035]  _8830_
+[INFO DPL-0035]  _9191_
+[INFO DPL-0035]  _9191_
+[INFO DPL-0035]  _9191_
+[INFO DPL-0035]  _8621_
+[INFO DPL-0035]  _8621_
+[INFO DPL-0035]  _8623_
+[INFO DPL-0035]  _8679_
+[INFO DPL-0035]  _8812_
+[INFO DPL-0035]  _8392_
+[INFO DPL-0035]  _8392_
+[INFO DPL-0035]  _8716_
+[INFO DPL-0035]  _8866_
+[INFO DPL-0035]  _8866_
+[INFO DPL-0035]  _8877_
+[INFO DPL-0035]  _8877_
+[INFO DPL-0035]  _8367_
+[INFO DPL-0035]  _9161_
+[INFO DPL-0035]  _9161_
+[INFO DPL-0035]  _9161_
+[INFO DPL-0035]  _8455_
+[INFO DPL-0035]  _8455_
+[INFO DPL-0035]  _8455_
+[INFO DPL-0035]  _9240_
+[INFO DPL-0035]  _8868_
+[INFO DPL-0035]  _8868_
+[INFO DPL-0035]  _8868_
+[INFO DPL-0035]  _8868_
+[INFO DPL-0035]  _8572_
+[INFO DPL-0035]  _8572_
+[INFO DPL-0035]  _8572_
+[INFO DPL-0035]  _8535_
+[INFO DPL-0035]  _8319_
+[INFO DPL-0035]  _9150_
+[INFO DPL-0035]  _8787_
+[INFO DPL-0035]  _8787_
+[INFO DPL-0035]  _9132_
+[INFO DPL-0035]  _9215_
+[INFO DPL-0035]  _9215_
+[INFO DPL-0035]  _8790_
+[INFO DPL-0035]  _8600_
+[INFO DPL-0035]  _9164_
+[INFO DPL-0035]  _8864_
+[INFO DPL-0035]  _8840_
+[INFO DPL-0035]  _8403_
+[INFO DPL-0035]  _8586_
+[INFO DPL-0035]  _8586_
+[INFO DPL-0035]  _8364_
+[INFO DPL-0035]  _8364_
+[INFO DPL-0035]  _8364_
+[INFO DPL-0035]  _8871_
+[INFO DPL-0035]  _8871_
+[INFO DPL-0035]  _9128_
+[INFO DPL-0035]  _9128_
+[INFO DPL-0035]  _9181_
+[INFO DPL-0035]  _9181_
+[INFO DPL-0035]  _9272_
+[INFO DPL-0035]  _8626_
+[INFO DPL-0035]  _8626_
+[INFO DPL-0035]  _8887_
+[INFO DPL-0035]  _9189_
+[INFO DPL-0035]  _8602_
+[INFO DPL-0035]  _8602_
+[INFO DPL-0035]  _8593_
+[INFO DPL-0035]  _9160_
+[INFO DPL-0035]  _9160_
+[INFO DPL-0035]  _8811_
+[INFO DPL-0035]  _8811_
+[INFO DPL-0035]  _8706_
+[INFO DPL-0035]  _8374_
+[INFO DPL-0035]  _8405_
+[INFO DPL-0035]  _8309_
+[INFO DPL-0035]  _8442_
+[INFO DPL-0035]  _8658_
+[INFO DPL-0035]  _9114_
+[INFO DPL-0035]  _8944_
+[INFO DPL-0035]  _9138_
+[INFO DPL-0035]  _8443_
+[INFO DPL-0035]  _8722_
+[INFO DPL-0035]  _8722_
+[INFO DPL-0035]  _8571_
+[INFO DPL-0035]  _8503_
+[INFO DPL-0035]  _8503_
+[INFO DPL-0035]  _8916_
+[INFO DPL-0035]  _8916_
+[INFO DPL-0035]  _9248_
+[INFO DPL-0035]  _8582_
+[INFO DPL-0035]  _8479_
+[INFO DPL-0035]  _8479_
+[INFO DPL-0035]  _8542_
+[INFO DPL-0035]  _8931_
+[INFO DPL-0035]  _8469_
+[INFO DPL-0035]  _8469_
+[INFO DPL-0035]  _8700_
+[INFO DPL-0035]  _9136_
+[INFO DPL-0035]  _9136_
+[INFO DPL-0035]  _8979_
+[INFO DPL-0035]  _8979_
+[INFO DPL-0035]  _8934_
+[INFO DPL-0035]  _8934_
+[INFO DPL-0035]  _9193_
+[INFO DPL-0035]  _9224_
+[INFO DPL-0035]  _8447_
+[INFO DPL-0035]  _8447_
+[INFO DPL-0035]  _8460_
+[INFO DPL-0035]  _8312_
+[INFO DPL-0035]  _9234_
+[INFO DPL-0035]  _8449_
+[INFO DPL-0035]  _8449_
+[INFO DPL-0035]  _9256_
+[INFO DPL-0035]  _9256_
+[INFO DPL-0035]  _9256_
+[INFO DPL-0035]  _9187_
+[INFO DPL-0035]  _9187_
+[INFO DPL-0035]  _9305_
+[INFO DPL-0035]  _8715_
+[INFO DPL-0035]  _8541_
+[INFO DPL-0035]  _9020_
+[INFO DPL-0035]  _9287_
+[INFO DPL-0035]  _9287_
+[INFO DPL-0035]  _8484_
+[INFO DPL-0035]  _8484_
+[INFO DPL-0035]  _9178_
+[INFO DPL-0035]  _9178_
+[INFO DPL-0035]  _8766_
+[INFO DPL-0035]  _8624_
+[INFO DPL-0035]  _8575_
+[INFO DPL-0035]  _8538_
+[INFO DPL-0035]  _8538_
+[INFO DPL-0035]  _8797_
+[INFO DPL-0035]  _8410_
+[INFO DPL-0035]  _8410_
+[INFO DPL-0035]  _8332_
+[INFO DPL-0035]  _9241_
+[INFO DPL-0035]  _9241_
+[INFO DPL-0035]  _8819_
+[INFO DPL-0035]  _9205_
+[INFO DPL-0035]  _8635_
+[INFO DPL-0035]  _9344_
+[INFO DPL-0035]  _8344_
+[INFO DPL-0035]  _8714_
+[INFO DPL-0035]  _8714_
+[INFO DPL-0035]  _8299_
+[INFO DPL-0035]  _8299_
+[INFO DPL-0035]  _8299_
+[INFO DPL-0035]  _8800_
+[INFO DPL-0035]  _8703_
+[INFO DPL-0035]  _8843_
+[INFO DPL-0035]  _8843_
+[INFO DPL-0035]  _8843_
+[INFO DPL-0035]  _9321_
+[INFO DPL-0035]  _9368_
+[INFO DPL-0035]  _6544_
+[INFO DPL-0035]  _6544_
+[INFO DPL-0035]  _8753_
+[INFO DPL-0035]  _8734_
+[INFO DPL-0035]  _8734_
+[INFO DPL-0035]  _8694_
+[INFO DPL-0035]  _8694_
+[INFO DPL-0035]  _8791_
+[INFO DPL-0035]  _8779_
+[INFO DPL-0035]  _8779_
+[INFO DPL-0035]  _8611_
+[INFO DPL-0035]  _8611_
+[INFO DPL-0035]  _8611_
+[INFO DPL-0035]  _8395_
+[INFO DPL-0035]  _8395_
+[INFO DPL-0035]  _8592_
+[INFO DPL-0035]  _9246_
+[INFO DPL-0035]  _9246_
+[INFO DPL-0035]  _8788_
+[INFO DPL-0035]  _8329_
+[INFO DPL-0035]  _8329_
+[INFO DPL-0035]  _8619_
+[INFO DPL-0035]  _8508_
+[INFO DPL-0035]  _8768_
+[INFO DPL-0035]  _9328_
+[INFO DPL-0035]  _9328_
+[INFO DPL-0035]  _8962_
+[INFO DPL-0035]  _8962_
+[INFO DPL-0035]  _8400_
+[INFO DPL-0035]  _8400_
+[INFO DPL-0035]  _8338_
+[INFO DPL-0035]  _8759_
+[INFO DPL-0035]  _8970_
+[INFO DPL-0035]  _8761_
+[INFO DPL-0035]  _9133_
+[INFO DPL-0035]  _8945_
+[INFO DPL-0035]  _8945_
+[INFO DPL-0035]  _8903_
+[INFO DPL-0035]  _9122_
+[INFO DPL-0035]  _9122_
+[INFO DPL-0035]  _9317_
+[INFO DPL-0035]  _9317_
+[INFO DPL-0035]  _9317_
+[INFO DPL-0035]  _8683_
+[INFO DPL-0035]  _8821_
+[INFO DPL-0035]  _8601_
+[INFO DPL-0035]  _8601_
+[INFO DPL-0035]  _8601_
+[INFO DPL-0035]  _8601_
+[INFO DPL-0035]  _8599_
+[INFO DPL-0035]  _8599_
+[INFO DPL-0035]  _8436_
+[INFO DPL-0035]  _8894_
+[INFO DPL-0035]  _8717_
+[INFO DPL-0035]  _8644_
+[INFO DPL-0035]  _8644_
+[INFO DPL-0035]  _8666_
+[INFO DPL-0035]  _8666_
+[INFO DPL-0035]  _8666_
+[INFO DPL-0035]  _9206_
+[INFO DPL-0035]  _8846_
+[INFO DPL-0035]  _8672_
+[INFO DPL-0035]  _8672_
+[INFO DPL-0035]  _8672_
+[INFO DPL-0035]  _8708_
+[INFO DPL-0035]  _8708_
+[INFO DPL-0035]  _8708_
+[INFO DPL-0035]  _8424_
+[INFO DPL-0035]  _8960_
+[INFO DPL-0035]  _8448_
+[INFO DPL-0035]  _9298_
+[INFO DPL-0035]  _9298_
+[INFO DPL-0035]  _8384_
+[INFO DPL-0035]  _8384_
+[INFO DPL-0035]  _8384_
+[INFO DPL-0035]  _8795_
+[INFO DPL-0035]  _9249_
+[INFO DPL-0035]  _8776_
+[INFO DPL-0035]  _8379_
+[INFO DPL-0035]  _8379_
+[INFO DPL-0035]  _8379_
+[INFO DPL-0035]  _9131_
+[INFO DPL-0035]  _9131_
+[INFO DPL-0035]  _8946_
+[INFO DPL-0035]  _8322_
+[INFO DPL-0035]  _8969_
+[INFO DPL-0035]  _9166_
+[INFO DPL-0035]  _9166_
+[INFO DPL-0035]  _8932_
+[INFO DPL-0035]  _8428_
+[INFO DPL-0035]  _8428_
+[INFO DPL-0035]  _8731_
+[INFO DPL-0035]  _8654_
+[INFO DPL-0035]  _8654_
+[INFO DPL-0035]  _9302_
+[INFO DPL-0035]  _9316_
+[INFO DPL-0035]  _9316_
+[INFO DPL-0035]  _9316_
+[INFO DPL-0035]  _8382_
+[INFO DPL-0035]  _8386_
+[INFO DPL-0035]  _9167_
+[INFO DPL-0035]  _9167_
+[INFO DPL-0035]  _9167_
+[INFO DPL-0035]  _8603_
+[INFO DPL-0035]  _9154_
+[INFO DPL-0035]  _9154_
+[INFO DPL-0035]  _8989_
+[INFO DPL-0035]  _8989_
+[INFO DPL-0035]  _8530_
+[INFO DPL-0035]  _9262_
+[INFO DPL-0035]  _8378_
+[INFO DPL-0035]  _8558_
+[INFO DPL-0035]  _8667_
+[INFO DPL-0035]  _8296_
+[INFO DPL-0035]  _8375_
+[INFO DPL-0035]  _8408_
+[INFO DPL-0035]  _8499_
+[INFO DPL-0035]  _8499_
+[INFO DPL-0035]  _8320_
+[INFO DPL-0035]  _8798_
+[INFO DPL-0035]  _8488_
+[INFO DPL-0035]  _8488_
+[INFO DPL-0035]  _8488_
+[INFO DPL-0035]  _8488_
+[INFO DPL-0035]  _8488_
+[INFO DPL-0035]  _8345_
+[INFO DPL-0035]  _8345_
+[INFO DPL-0035]  _9350_
+[INFO DPL-0035]  _9333_
+[INFO DPL-0035]  _9333_
+[INFO DPL-0035]  _8608_
+[INFO DPL-0035]  _8608_
+[INFO DPL-0035]  _8755_
+[INFO DPL-0035]  _8371_
+[INFO DPL-0035]  _9192_
+[INFO DPL-0035]  _8663_
+[INFO DPL-0035]  _8663_
+[INFO DPL-0035]  _8663_
+[INFO DPL-0035]  _8663_
+[INFO DPL-0035]  _9032_
+[INFO DPL-0035]  _9032_
+[INFO DPL-0035]  _9032_
+[INFO DPL-0035]  _8823_
+[INFO DPL-0035]  _8823_
+[INFO DPL-0035]  _8341_
+[INFO DPL-0035]  _8906_
+[INFO DPL-0035]  _9326_
+[INFO DPL-0035]  _8831_
+[INFO DPL-0035]  _8911_
+[INFO DPL-0035]  _8372_
+[INFO DPL-0035]  _8331_
+[INFO DPL-0035]  _8331_
+[INFO DPL-0035]  _9278_
+[INFO DPL-0035]  _9278_
+[INFO DPL-0035]  _9229_
+[INFO DPL-0035]  _8551_
+[INFO DPL-0035]  _8458_
+[INFO DPL-0035]  _8458_
+[INFO DPL-0035]  _9294_
+[INFO DPL-0035]  _9294_
+[INFO DPL-0035]  _8859_
+[INFO DPL-0035]  _8859_
+[INFO DPL-0035]  _8859_
+[INFO DPL-0035]  _8859_
+[INFO DPL-0035]  _9220_
+[INFO DPL-0035]  _9220_
+[INFO DPL-0035]  _8909_
+[INFO DPL-0035]  _8990_
+[INFO DPL-0035]  _8990_
+[INFO DPL-0035]  _8559_
+[INFO DPL-0035]  _9034_
+[INFO DPL-0035]  _8531_
+[INFO DPL-0035]  _8738_
+[INFO DPL-0035]  _8978_
+[INFO DPL-0035]  _8895_
+[INFO DPL-0035]  _8895_
+[INFO DPL-0035]  _8407_
+[INFO DPL-0035]  _8583_
+[INFO DPL-0035]  _8452_
+[INFO DPL-0035]  _9276_
+[INFO DPL-0035]  _9276_
+[INFO DPL-0035]  _8695_
+[INFO DPL-0035]  _9195_
+[INFO DPL-0035]  _8355_
+[INFO DPL-0035]  _8355_
+[INFO DPL-0035]  _8355_
+[INFO DPL-0035]  _8995_
+[INFO DPL-0035]  _9295_
+[INFO DPL-0035]  _9295_
+[INFO DPL-0035]  _9171_
+[INFO DPL-0035]  _8381_
+[INFO DPL-0035]  _8381_
+[INFO DPL-0035]  _8358_
+[INFO DPL-0035]  _8358_
+[INFO DPL-0035]  load_slew145
+[INFO DPL-0035]  _8305_
+[INFO DPL-0035]  _8305_
+[INFO DPL-0035]  _8512_
+[INFO DPL-0035]  _8512_
+[INFO DPL-0035]  _8439_
+[INFO DPL-0035]  _8453_
+[INFO DPL-0035]  _8453_
+[INFO DPL-0035]  _8518_
+[INFO DPL-0035]  _8316_
+[INFO DPL-0035]  _8316_
+[INFO DPL-0035]  _8590_
+[INFO DPL-0035]  _8478_
+[INFO DPL-0035]  _8478_
+[INFO DPL-0035]  _8478_
+[INFO DPL-0035]  _8478_
+[INFO DPL-0035]  _8655_
+[INFO DPL-0035]  _8396_
+[INFO DPL-0035]  _8396_
+[INFO DPL-0035]  _8937_
+[INFO DPL-0035]  _9118_
+[INFO DPL-0035]  _9018_
+[INFO DPL-0035]  _9018_
+[INFO DPL-0035]  _8760_
+[INFO DPL-0035]  _8760_
+[INFO DPL-0035]  _8760_
+[INFO DPL-0035]  _8625_
+[INFO DPL-0035]  _8625_
+[INFO DPL-0035]  _9023_
+[INFO DPL-0035]  _9023_
+[INFO DPL-0035]  _8471_
+[INFO DPL-0035]  _8900_
+[INFO DPL-0035]  _8526_
+[INFO DPL-0035]  _8748_
+[INFO DPL-0035]  _8748_
+[INFO DPL-0035]  _8748_
+[INFO DPL-0035]  _8416_
+[INFO DPL-0035]  _9015_
+[INFO DPL-0035]  _9247_
+[INFO DPL-0035]  _9330_
+[INFO DPL-0035]  load_slew147
+[INFO DPL-0035]  load_slew147
+[INFO DPL-0035]  _8628_
+[INFO DPL-0035]  input12
+[INFO DPL-0035]  _5947_
+[INFO DPL-0035]  _9255_
+[INFO DPL-0035]  _5396_
+[INFO DPL-0035]  _5396_
+[INFO DPL-0035]  _5065_
+[INFO DPL-0035]  _4416_
+[INFO DPL-0035]  _4416_
+[INFO DPL-0035]  _5336_
+[INFO DPL-0035]  _5336_
+[INFO DPL-0035]  _5336_
+[INFO DPL-0035]  _5336_
+[INFO DPL-0035]  _7712_
+[INFO DPL-0035]  _7712_
+[INFO DPL-0035]  _7943_
+[INFO DPL-0035]  _7943_
+[INFO DPL-0035]  _6358_
+[INFO DPL-0035]  _6358_
+[INFO DPL-0035]  _6358_
+[INFO DPL-0035]  _6379_
+[INFO DPL-0035]  _6379_
+[INFO DPL-0035]  _4303_
+[INFO DPL-0035]  _4303_
+[INFO DPL-0035]  _4303_
+[INFO DPL-0035]  _7372_
+[INFO DPL-0035]  _5074_
+[INFO DPL-0035]  _4146_
+[INFO DPL-0035]  _4146_
+[INFO DPL-0035]  _6254_
+[INFO DPL-0035]  _6254_
+[INFO DPL-0035]  _6254_
+[INFO DPL-0035]  _5722_
+[INFO DPL-0035]  _6571_
+[INFO DPL-0035]  _6571_
+[INFO DPL-0035]  _7250_
+[INFO DPL-0035]  _7250_
+[INFO DPL-0035]  _7250_
+[INFO DPL-0035]  _6127_
+[INFO DPL-0035]  _6127_
+[INFO DPL-0035]  _6127_
+[INFO DPL-0035]  _6127_
+[INFO DPL-0035]  _8071_
+[INFO DPL-0035]  _8071_
+[INFO DPL-0035]  _8071_
+[INFO DPL-0035]  _6095_
+[INFO DPL-0035]  _6095_
+[INFO DPL-0035]  _6095_
+[INFO DPL-0035]  _6475_
+[INFO DPL-0035]  _6475_
+[INFO DPL-0035]  _7949_
+[INFO DPL-0035]  _7949_
+[INFO DPL-0035]  _7699_
+[INFO DPL-0035]  _7699_
+[INFO DPL-0035]  _6634_
+[INFO DPL-0035]  _6634_
+[INFO DPL-0035]  _8034_
+[INFO DPL-0035]  _7268_
+[INFO DPL-0035]  _8091_
+[INFO DPL-0035]  _8091_
+[INFO DPL-0035]  _6262_
+[INFO DPL-0035]  _6262_
+[INFO DPL-0035]  _7223_
+[INFO DPL-0035]  _7326_
+[INFO DPL-0035]  _7326_
+[INFO DPL-0035]  _7326_
+[INFO DPL-0035]  _6562_
+[INFO DPL-0035]  _6562_
+[INFO DPL-0035]  _6562_
+[INFO DPL-0035]  _7087_
+[INFO DPL-0035]  _7130_
+[INFO DPL-0035]  _7130_
+[INFO DPL-0035]  _6830_
+[INFO DPL-0035]  _6171_
+[INFO DPL-0035]  _6171_
+[INFO DPL-0035]  _7020_
+[INFO DPL-0035]  _7918_
+[INFO DPL-0035]  _7918_
+[INFO DPL-0035]  _7918_
+[INFO DPL-0035]  _6788_
+[INFO DPL-0035]  _6788_
+[INFO DPL-0035]  _6788_
+[INFO DPL-0035]  _6788_
+[INFO DPL-0035]  _8010_
+[INFO DPL-0035]  _8010_
+[INFO DPL-0035]  _8010_
+[INFO DPL-0035]  _8010_
+[INFO DPL-0035]  _6667_
+[INFO DPL-0035]  _6667_
+[INFO DPL-0035]  _7092_
+[INFO DPL-0035]  _7092_
+[INFO DPL-0035]  _7092_
+[INFO DPL-0035]  _5993_
+[INFO DPL-0035]  _5993_
+[INFO DPL-0035]  _6780_
+[INFO DPL-0035]  _6780_
+[INFO DPL-0035]  _6780_
+[INFO DPL-0035]  _4481_
+[INFO DPL-0035]  _4481_
+[INFO DPL-0035]  _8162_
+[INFO DPL-0035]  _8162_
+[INFO DPL-0035]  _6215_
+[INFO DPL-0035]  _7273_
+[INFO DPL-0035]  _7273_
+[INFO DPL-0035]  _7273_
+[INFO DPL-0035]  _7273_
+[INFO DPL-0035]  _7050_
+[INFO DPL-0035]  _7050_
+[INFO DPL-0035]  _6429_
+[INFO DPL-0035]  _6429_
+[INFO DPL-0035]  _6429_
+[INFO DPL-0035]  _7537_
+[INFO DPL-0035]  _5635_
+[INFO DPL-0035]  _7307_
+[INFO DPL-0035]  _7307_
+[INFO DPL-0035]  _7307_
+[INFO DPL-0035]  _4461_
+[INFO DPL-0035]  _5507_
+[INFO DPL-0035]  _4601_
+[INFO DPL-0035]  _7313_
+[INFO DPL-0035]  _7313_
+[INFO DPL-0035]  _8212_
+[INFO DPL-0035]  _5437_
+[INFO DPL-0035]  _5437_
+[INFO DPL-0035]  _5437_
+[INFO DPL-0035]  _4500_
+[INFO DPL-0035]  _4500_
+[INFO DPL-0035]  _7413_
+[INFO DPL-0035]  _7413_
+[INFO DPL-0035]  _7413_
+[INFO DPL-0035]  _7920_
+[INFO DPL-0035]  _7920_
+[INFO DPL-0035]  _4697_
+[INFO DPL-0035]  _4697_
+[INFO DPL-0035]  _5616_
+[INFO DPL-0035]  _5616_
+[INFO DPL-0035]  _5616_
+[INFO DPL-0035]  _5616_
+[INFO DPL-0035]  _5430_
+[INFO DPL-0035]  _8204_
+[INFO DPL-0035]  _8204_
+[INFO DPL-0035]  _8204_
+[INFO DPL-0035]  _8092_
+[INFO DPL-0035]  _7829_
+[INFO DPL-0035]  _7829_
+[INFO DPL-0035]  _6629_
+[INFO DPL-0035]  _7856_
+[INFO DPL-0035]  _7856_
+[INFO DPL-0035]  _7856_
+[INFO DPL-0035]  _6245_
+[INFO DPL-0035]  _6245_
+[INFO DPL-0035]  _6748_
+[INFO DPL-0035]  _7056_
+[INFO DPL-0035]  _6547_
+[INFO DPL-0035]  _6114_
+[INFO DPL-0035]  _6062_
+[INFO DPL-0035]  _6062_
+[INFO DPL-0035]  _7694_
+[INFO DPL-0035]  _7694_
+[INFO DPL-0035]  _5561_
+[INFO DPL-0035]  _6191_
+[INFO DPL-0035]  _7137_
+[INFO DPL-0035]  _6468_
+[INFO DPL-0035]  _6468_
+[INFO DPL-0035]  _4890_
+[INFO DPL-0035]  _4474_
+[INFO DPL-0035]  _4474_
+[INFO DPL-0035]  _5796_
+[INFO DPL-0035]  _7385_
+[INFO DPL-0035]  _4334_
+[INFO DPL-0035]  _5243_
+[INFO DPL-0035]  _5186_
+[INFO DPL-0035]  _5186_
+[INFO DPL-0035]  _6211_
+[INFO DPL-0035]  _6211_
+[INFO DPL-0035]  _6540_
+[INFO DPL-0035]  _6540_
+[INFO DPL-0035]  _7023_
+[INFO DPL-0035]  _6373_
+[INFO DPL-0035]  _6373_
+[INFO DPL-0035]  _8022_
+[INFO DPL-0035]  _7998_
+[INFO DPL-0035]  _8202_
+[INFO DPL-0035]  _8202_
+[INFO DPL-0035]  _6213_
+[INFO DPL-0035]  _6213_
+[INFO DPL-0035]  _6213_
+[INFO DPL-0035]  _6108_
+[INFO DPL-0035]  _6108_
+[INFO DPL-0035]  _6852_
+[INFO DPL-0035]  _4233_
+[INFO DPL-0035]  _4233_
+[INFO DPL-0035]  _6433_
+[INFO DPL-0035]  _7461_
+[INFO DPL-0035]  _5349_
+[INFO DPL-0035]  _5349_
+[INFO DPL-0035]  _7778_
+[INFO DPL-0035]  _8026_
+[INFO DPL-0035]  _7449_
+[INFO DPL-0035]  _4306_
+[INFO DPL-0035]  _5835_
+[INFO DPL-0035]  _5410_
+[INFO DPL-0035]  _7655_
+[INFO DPL-0035]  _7655_
+[INFO DPL-0035]  _5322_
+[INFO DPL-0035]  _6943_
+[INFO DPL-0035]  _6441_
+[INFO DPL-0035]  _6249_
+[INFO DPL-0035]  _5382_
+[INFO DPL-0035]  _7257_
+[INFO DPL-0035]  _7257_
+[INFO DPL-0035]  _6744_
+[INFO DPL-0035]  _8020_
+[INFO DPL-0035]  _8020_
+[INFO DPL-0035]  _4689_
+[INFO DPL-0035]  _6049_
+[INFO DPL-0035]  _6049_
+[INFO DPL-0035]  _6000_
+[INFO DPL-0035]  _6000_
+[INFO DPL-0035]  _6000_
+[INFO DPL-0035]  _6365_
+[INFO DPL-0035]  _6365_
+[INFO DPL-0035]  _4995_
+[INFO DPL-0035]  _4995_
+[INFO DPL-0035]  _5734_
+[INFO DPL-0035]  _6478_
+[INFO DPL-0035]  _7063_
+[INFO DPL-0035]  _7063_
+[INFO DPL-0035]  _6197_
+[INFO DPL-0035]  _6382_
+[INFO DPL-0035]  _7549_
+[INFO DPL-0035]  _7549_
+[INFO DPL-0035]  _6803_
+[INFO DPL-0035]  _6803_
+[INFO DPL-0035]  _6803_
+[INFO DPL-0035]  _7781_
+[INFO DPL-0035]  _7781_
+[INFO DPL-0035]  _7781_
+[INFO DPL-0035]  _7511_
+[INFO DPL-0035]  _7511_
+[INFO DPL-0035]  _7511_
+[INFO DPL-0035]  _7488_
+[INFO DPL-0035]  _7488_
+[INFO DPL-0035]  _7430_
+[INFO DPL-0035]  _7430_
+[INFO DPL-0035]  _6496_
+[INFO DPL-0035]  _6496_
+[INFO DPL-0035]  _4200_
+[INFO DPL-0035]  _4837_
+[INFO DPL-0035]  _4837_
+[INFO DPL-0035]  _7551_
+[INFO DPL-0035]  _5123_
+[INFO DPL-0035]  _4413_
+[INFO DPL-0035]  _4269_
+[INFO DPL-0035]  _4269_
+[INFO DPL-0035]  _4269_
+[INFO DPL-0035]  _6661_
+[INFO DPL-0035]  _7663_
+[INFO DPL-0035]  _7663_
+[INFO DPL-0035]  _7948_
+[INFO DPL-0035]  _5941_
+[INFO DPL-0035]  _4991_
+[INFO DPL-0035]  _8144_
+[INFO DPL-0035]  _6671_
+[INFO DPL-0035]  _5539_
+[INFO DPL-0035]  _5539_
+[INFO DPL-0035]  _4432_
+[INFO DPL-0035]  _4559_
+[INFO DPL-0035]  _8190_
+[INFO DPL-0035]  _6089_
+[INFO DPL-0035]  _6089_
+[INFO DPL-0035]  _6730_
+[INFO DPL-0035]  _6157_
+[INFO DPL-0035]  _4537_
+[INFO DPL-0035]  _4182_
+[INFO DPL-0035]  _7243_
+[INFO DPL-0035]  _8037_
+[INFO DPL-0035]  _7103_
+[INFO DPL-0035]  _6524_
+[INFO DPL-0035]  _6524_
+[INFO DPL-0035]  _6524_
+[INFO DPL-0035]  _6524_
+[INFO DPL-0035]  _7275_
+[INFO DPL-0035]  _6228_
+[INFO DPL-0035]  _7977_
+[INFO DPL-0035]  _7977_
+[INFO DPL-0035]  _4288_
+[INFO DPL-0035]  _7587_
+[INFO DPL-0035]  _6269_
+[INFO DPL-0035]  _7560_
+[INFO DPL-0035]  _7560_
+[INFO DPL-0035]  _7391_
+[INFO DPL-0035]  _6068_
+[INFO DPL-0035]  _7133_
+[INFO DPL-0035]  _7133_
+[INFO DPL-0035]  _6488_
+[INFO DPL-0035]  _7015_
+[INFO DPL-0035]  _6367_
+[INFO DPL-0035]  _5255_
+[INFO DPL-0035]  _4780_
+[INFO DPL-0035] message limit reached, this message will no longer print
+[ERROR DPL-0036] Detailed placement failed.
+Error: resizer.tcl, 66 DPL-0036
