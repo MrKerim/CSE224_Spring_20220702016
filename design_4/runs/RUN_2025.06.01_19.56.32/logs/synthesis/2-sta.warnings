@@ -1,5 +1,0 @@
-Warning: lab4.sdc line 2, port 'clk' not found.
-Warning: There are 51 input ports missing set_input_delay.
-Warning: There are 1088 unclocked register/latch pins.
-Warning: There are 1184 unconstrained endpoints.
-[WARNING] Did not save OpenROAD database!
